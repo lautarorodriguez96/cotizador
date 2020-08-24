@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.componentes{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.title{
+  font-family: arial;
+  padding-bottom: 40px;
+}
+
+label{
+  font-family: arial;
+}
+
+th{
+  font-family: arial;
+  font-weight: 300;
+}
+
+.input{
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(206 212 218);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(206 212 218);
+  box-shadow: 2px 2px 5px 0px rgba(206 212 218);
+}
+
+.date-picker-app{
+  right: 14px;
+  width: 420px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(206 212 218);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(206 212 218);
+  box-shadow: 2px 2px 5px 0px rgba(206 212 218);
+}
+
+.label{
+  float: left;
+  font-weight: 500;
+}
+
+.btn-search {
+	box-shadow:inset 0px 0px 0px 0px #fce2c1;
+  background-color:#ee794f;
+  border-color: #ee794f ;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:15px 40px;
+	text-decoration:none;
+  text-shadow:0px 0px 0px #cc9f52;
+  -webkit-box-shadow: 2px 2px 5px 0px #cc9f52;
+  -moz-box-shadow: 2px 2px 5px 0px #cc9f52;
+  box-shadow: 2px 2px 5px 0px #cc9f52;
+}
+
+.btn-search:hover {
+  background-color:#ffffff ;
+  border-color: #ee794f ;
+  color: #ee794f;
+}
+
+.btn-search:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-view {
+	box-shadow:inset 0px 0px 0px 0px #fce2c1;
+  background-color:#ffffff;
+  border-color: #ee794f ;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ee794f !important;
+	font-family:Arial;
+	font-size:15px;
+	padding:15px 40px;
+	text-decoration:none;
+  text-shadow:0px 0px 0px #cc9f52;
+  -webkit-box-shadow: 2px 2px 5px 0px #cc9f52;
+  -moz-box-shadow: 2px 2px 5px 0px #cc9f52;
+  box-shadow: 2px 2px 5px 0px #cc9f52;
+}
+
+.btn-view:hover {
+  background-color:#ee794f ;
+  border-color: #ffffff ;
+  color: #ffffff !important;
+}
+
+.btn-view:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff !important;
+  background-color: #ee794f !important;
+  border-color: #ee794f !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff !important;
+  background-color: #ee794f;
+  border-color: #ee794f !important;
+  box-shadow:  0 0 0.2rem #ee794f;
+}
+
+.btn-view{
+  background-color: white;
+  color: black;
+}
+
+.date-picker-content{
+  padding-left: 0px;
+  padding-bottom: 40px;
+}
+
+.content{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-button{
+  padding-top: 30px;
+}
+
+.eur{
+  width: 16px;
+}
+
+.flag{
+  width: 27px;
+  height: 27px;
+  border-radius: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
